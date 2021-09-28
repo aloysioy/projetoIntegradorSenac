@@ -1,0 +1,1 @@
+Fornecedor{codigo='25', email='a@a.com', telefone='11985263615'}
