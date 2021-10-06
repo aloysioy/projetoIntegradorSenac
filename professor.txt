@@ -1,1 +1,12 @@
 Professor{codigo='2', cadeira='Computacao', titular='Teste', anoDeAdmissao='2018'}
+Professor{codigo='1', nome='nome teste', sobrenome='sobrenome teste', cpf='123456', cadeira='1', titular='12', anoDeAdmissao='2021'}
+Professor{codigo='2', nome='nome', sobrenome='sobrenome', cpf='12345678', cadeira='12', titular='', anoDeAdmissao=''}
+Professor{codigo='', nome='', sobrenome='', cpf='', cadeira='', titular='', anoDeAdmissao=''}
+Professor{codigo='', nome='', sobrenome='', cpf='', cadeira='', titular='', anoDeAdmissao=''}
+Professor{codigo='', nome='', sobrenome='', cpf='', cadeira='', titular='', anoDeAdmissao=''}
+Professor{codigo='', nome='', sobrenome='', cpf='', cadeira='', titular='', anoDeAdmissao=''}
+Professor{codigo='', nome='', sobrenome='', cpf='', cadeira='', titular='', anoDeAdmissao=''}
+Professor{codigo='          ', nome='', sobrenome='', cpf='', cadeira='   ', titular='', anoDeAdmissao=''}
+Professor{codigo='', nome='', sobrenome='', cpf='', cadeira='', titular='', anoDeAdmissao=''}
+Professor{codigo='', nome='', sobrenome='', cpf='aaaaa', cadeira='', titular='', anoDeAdmissao=''}
+Professor{codigo='', nome='1', sobrenome='1', cpf='1', cadeira='', titular='', anoDeAdmissao=''}

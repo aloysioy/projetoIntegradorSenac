@@ -10,21 +10,42 @@ import View.MenuPrincipal;
 public class Controlador {
 
     public static void salvarProfessor(Professor professor) {
-        Escrever.escreverArquivo("professor.txt", professor.toString());
-        System.out.println("Professor cadastrado com sucesso!");
+        String msg;
+        msg = professor.toValidate();
+        if ( msg.equals("")) {
+            Escrever.escreverArquivo("professor.txt", professor.toString());
+            System.out.println("Professor cadastrado com sucesso!");
+        } else {
+            System.out.println("Professor não cadastrado, verifique os erros:");
+            System.out.println(msg);
+        }
         MenuPrincipal.iniciar();
     }
 
     public static void salvarAluno(Aluno aluno) {
-        Escrever.escreverArquivo("aluno.txt", aluno.toString());
-        System.out.println("Aluno cadastrado com sucesso!");
+        String msg;
+        msg = aluno.toValidate();
+        if ( msg.equals("")) {
+            Escrever.escreverArquivo("aluno.txt", aluno.toString());
+            System.out.println("Aluno cadastrado com sucesso!");
+        } else {
+            System.out.println("Aluno não cadastrado, verifique os erros:");
+            System.out.println(msg);
+        }
         MenuPrincipal.iniciar();
     }
 
     public static void salvarFornecedor(Fornecedor fornecedor) {
 
-        Escrever.escreverArquivo("fornecedor.txt", fornecedor.toString());
-        System.out.println("Fornecedor cadastrado com sucesso!");
+        String msg;
+        msg = fornecedor.toValidate();
+        if ( msg.equals("")) {
+            Escrever.escreverArquivo("fornecedor.txt", fornecedor.toString());
+            System.out.println("Fornecedor cadastrado com sucesso!");
+        } else {
+            System.out.println("Fornecedor não cadastrado, verifique os erros:");
+            System.out.println(msg);
+        }
         MenuPrincipal.iniciar();
     }
 
